@@ -1,5 +1,7 @@
 # MQTT To AIDA64 Bridge
 
+## Release Here -> [V1.0.0](https://github.com/ghostseven/MQTT-To-AIDA64-Bridge/releases/tag/v1.0.0)
+
 A bridge between a local MQTT server and AIDA64, it utilises AIDAs [custom registry values](https://www.aida64.com/user-manual/hardware-monitoring/displaying-custom-values) to read from MQTT and write to these registry fields. 
 
 Run the program at startup, and it will show a little icon in the notification area (a red mqtt icon), you can right click it to exit.  
