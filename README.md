@@ -6,7 +6,7 @@ Run the program at startup, and it will show a little icon in the notification a
 
 You can use up to 10 DWORD (32 bit integer) values and up to 10 String values. 
 
-Once data has been capture and written to the registry any items will show up as Registry Value (NAME OF REG) !(reg-values-in-aida.png) when you add a new sensor to the sensor pannel.
+Once data has been capture and written to the registry any items will show up as Registry Value (NAME OF REG) ![](reg-values-in-aida.png) when you add a new sensor to the sensor pannel.
 
 There is a simple config in JSON that allows you to define a MQTT broker and optionally a username and or password for the broker. You can then define up to 20 keys (10 DWORD, 10 String) to read different MQTT paths to the registry keys.
 
