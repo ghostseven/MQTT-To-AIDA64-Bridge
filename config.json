@@ -1,0 +1,19 @@
+﻿{
+  "broker": {
+    "host": "1.1.1.1",
+    "user": "user",
+    "password": "password"
+  },
+  "keys": [
+    {
+      "key": "DW1",
+      "topic": "draytronics/switch/game_pc/SENSOR",
+      "path": "ENERGY.Power"
+    },
+    {
+      "key": "DW2",
+      "topic": "draytronics/switch/game_pc/SENSOR",
+      "path": "ENERGY.Voltage"
+    }
+  ]
+}
