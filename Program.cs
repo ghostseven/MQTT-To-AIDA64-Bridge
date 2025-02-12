@@ -45,11 +45,11 @@ namespace MQTT_To_AIDA64_Bridge
             string? mqttPass = null;
             JsonNode root = null;
 
-            if (File.Exists("config.json"))// If we can load the config file and it parses out sensible values continue, if not close the application. 
+            if (File.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory,"config.json")))// If we can load the config file and it parses out sensible values continue, if not close the application. 
             {
                 try
                 {
-                    mqttConfig = File.ReadAllText("config.json");
+                    mqttConfig = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.json"));
                     root = JsonNode.Parse(mqttConfig);
                     
                     mqttBroker = GetJsonValue(root, "broker.host");
